@@ -39,7 +39,7 @@ const Home = () => {
       return;
     }
 
-    const searchUrl = `https://openlibrary.org/search.json?q=${searchTerm}`;
+    const searchUrl = `http://openlibrary.org/search.json?q=${searchTerm}`;
 
     try {
       setIsLoading(true);

@@ -18,7 +18,7 @@ const SearchResults = ({ results }) => {
               <tr key={result.key}>
                 <td>
                   <a
-                    href={`https://openlibrary.org${result.key}`}
+                    href={`http://openlibrary.org${result.key}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-decoration-none"
