@@ -7,6 +7,7 @@ import Pagination from './pagination';
 import { useHistory } from "react-router-dom";
 import subjects from "./trending.json"
 import HomeButton from './backtoHome';
+import Footer from './footer';
 
 const SubjectPage= ({ match }) => {
   const history = useHistory();
@@ -97,7 +98,12 @@ const SubjectPage= ({ match }) => {
               </div>
             </div>
           </div>
-        </div>
+          <div className="mb-2 my-5">
+          <Footer/>
+          </div>
+         
+          </div>
+      
       </div>
     </>
   )

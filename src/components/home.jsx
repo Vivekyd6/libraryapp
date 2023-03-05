@@ -7,7 +7,7 @@ import Pagination from './pagination';
 
 import { useHistory } from "react-router-dom";
 import HomeButton from "./backtoHome"
-
+import Footer from './footer';
 const Home = () => {
 
 
@@ -118,7 +118,11 @@ const Home = () => {
                 </div>
             </div>
           </div>
+          <div className="mb-2 my-5">
+          <Footer/>
+          </div>
         </div>
+  
       </div>
     </>
   );
