@@ -1,0 +1,7 @@
+[
+    { "key": "maths", "name": "Mathematics", "path": "subjects/mathematics" },
+    { "key": "science", "name": "Science", "path": "subjects/science" },
+    { "key": "literature", "name": "Literature", "path": "subjects/literature" },
+    { "key": "history", "name": "History", "path": "subjects/history" },
+    { "key": "chemistry", "name": "Chemistry", "path": "subjects/chemistry" }
+  ]
