@@ -9,6 +9,8 @@ import subjects from "./trending.json"
 import HomeButton from './backtoHome';
 import Footer from './footer';
 
+
+
 const SubjectPage= ({ match }) => {
   const history = useHistory();
   const [isLoading, setIsLoading] = useState(false);

@@ -6,7 +6,7 @@ import Loading from './loading';
 import Pagination from './pagination';
 
 import { useHistory } from "react-router-dom";
-import HomeButton from "./backtoHome"
+
 import Footer from './footer';
 const Home = () => {
 
@@ -33,6 +33,8 @@ const Home = () => {
     // Do something else with the clicked subject
     history.push(`/${subject}`)
   };
+
+
   const handleSearch = async (searchTerm) => {
     if (searchTerm === '') {
       setSearchResults([]);
@@ -77,10 +79,6 @@ const Home = () => {
       >
         <div className="container bg-white py-3">
           <h1 className="text-center mb-4">Welcome to My Library</h1>
-          <div className="mb-3 d-flex flex-row-reverse">
-          <HomeButton/>
-          </div>
-      
           <div className="row">
             <div className="col-3">
               <div className="container border py-3">
