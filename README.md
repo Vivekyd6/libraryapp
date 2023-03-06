@@ -2,24 +2,30 @@
 
 This is library app  frontend web application built with ReactJS, JavaScript ,  Bootstrap, and API. It allows users to search the books by title or authors .
 
+# Api Used :
+   Subjects API doc - [https://openlibrary.org/dev/docs/api/subjects](https://openlibrary.org/dev/docs/api/subjects)
+ 
+   Search API doc - [https://openlibrary.org/dev/docs/api/search](https://openlibrary.org/dev/docs/api/search)
+   
+   *Hosted on Netlify server 
+   # Link - https://vylibrary.netlify.app/
 
-Features 
-View a list of books with their titles, authors.
-Search for books by title, author, or subject.
+## Features 
+   View a list of books with their titles, authors.
+   Search for books by title, author, or subject.
 
 ## Getting started 
 
-To get started with the application, follow the steps below:
+   To get started with the application, follow the steps below:
 
-1. Clone the repository:
-     git clone  [https://github.com/Vivekyd6/libraryapp.git](https://github.com/Vivekyd6/libraryapp.git) .
+    1. Clone the repository:
+       git clone  [https://github.com/Vivekyd6/libraryapp.git](https://github.com/Vivekyd6/libraryapp.git) .
 
-2. Install dependencies : 
-    cd libraryapp
-    npm install
+    2. Install dependencies : 
+      cd libraryapp
+      npm install
     
-
-In the project directory, you can run:
+ In the project directory, you can run:
 
 ### `npm start`
 
